@@ -1,0 +1,53 @@
+/**********************************************************************************************************/
+/*                                   Style Sheet for Cyberpunk web                                        */
+/*                                        Author: Manuel Alarcón                                          */
+/*                                             version: 1.0                                               */
+/*                                   Comments: final project 2023-24                                      */
+/**********************************************************************************************************/
+
+@font-face{font-family: cybertitulo;
+            src: url(../font/KogniGear.ttf);}
+
+@font-face {
+    font-family: cybertext;
+    src: url(../font/spacejunkXL.ttf);
+}
+
+body{background-image: url(../img/bckgrndpattern\(freepik\).avif) ;
+    color:  #A8C4F5;}
+
+h1{font-family: cybertitulo;
+    color: #F942DD;
+    top: 15%;
+    left: 15%;
+    position: absolute;
+    font-size: 1000%;}
+
+h2{font-family: cybertitulo;
+    color: #F942DD;}
+
+#hero {background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/neon-purple-aesthetic-cyberpunk-street-cb5c3lcj2lqr4z6f.jpg);
+    height: 100vh;
+    background-size: cover;
+    }
+
+nav{margin:auto;
+    background-color: #17091B}
+
+#wrapper{width:80%;
+        margin:auto;
+        background-color: #17091B;
+        font-family: cybertext; }
+
+        #hero button {background-color:#17091B;
+            color:#A8C4F5;
+            font-weight: bold;
+            border-color: #F942DD;
+            border-radius: 10px;
+            padding: 15px 10px;
+            position:absolute; 
+            top: 75%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            }
