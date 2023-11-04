@@ -5,49 +5,79 @@
 /*                                   Comments: final project 2023-24                                      */
 /**********************************************************************************************************/
 
-@font-face{font-family: cybertitulo;
-            src: url(../font/KogniGear.ttf);}
+@font-face{
+    font-family: cybertitulo;
+    src: url(../font/KogniGear.ttf);
+    }
 
 @font-face {
     font-family: cybertext;
     src: url(../font/spacejunkXL.ttf);
-}
-
-body{background-image: url(../img/bckgrndpattern\(freepik\).avif) ;
-    color:  #A8C4F5;}
-
-h1{font-family: cybertitulo;
-    color: #F942DD;
-    top: 15%;
-    left: 15%;
-    position: absolute;
-    font-size: 1000%;}
-
-h2{font-family: cybertitulo;
-    color: #F942DD;}
-
-#hero {background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../img/neon-purple-aesthetic-cyberpunk-street-cb5c3lcj2lqr4z6f.jpg);
-    height: 100vh;
-    background-size: cover;
     }
 
-nav{margin:auto;
-    background-color: #17091B}
+body{
+    background-image: url(../img/bckgrndpattern\(freepik\).png) ;
+    color:  #A8C4F5;
+    }
 
-#wrapper{width:80%;
-        margin:auto;
-        background-color: #17091B;
-        font-family: cybertext; }
+h1{
+    font-family: cybertitulo;
+    color: #F942DD;
+    text-align: center;
+    margin-top:200px ;
+    font-size: 1000%;
+    }
 
-        #hero button {background-color:#17091B;
-            color:#A8C4F5;
-            font-weight: bold;
-            border-color: #F942DD;
-            border-radius: 10px;
-            padding: 15px 10px;
-            position:absolute; 
-            top: 75%;
-            left: 50%;
-            transform: translate(-50%,-50%);
-            }
+h2{
+    font-family: cybertitulo;
+    color: #F942DD;
+    }
+
+#hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../img/neon-purple-aesthetic-cyberpunk-street-cb5c3lcj2lqr4z6f.jpg);
+    height: 100vh;
+    width: 100%;
+    margin-top: 0%;
+    background-size: cover;
+    background-position: 35%;
+    position: relative;
+    }
+
+nav{
+    margin: auto;
+    background-color: #17091B;
+    }
+
+#wrapper{
+    width:80%;
+    margin:auto;
+    background-color: #17091B;
+    font-family: cybertext; 
+    }
+
+#hero button{
+    background-color:#17091B;
+    color:#A8C4F5;
+    border-color: #F942DD;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 10px;
+    padding: 20px 15px;
+    position:absolute; 
+    top: 66%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    }
+
+@media only screen and (width<1200px) {
+
+    h1{font-size: 700%;}
+
+}
+
+@media only screen and (width<750px) {
+
+    h1{font-size: 400%;}
+
+}
