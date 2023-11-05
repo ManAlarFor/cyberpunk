@@ -45,8 +45,10 @@ h2{
     }
 
 nav{
+    width:80%;
     margin: auto;
     background-color: #17091B;
+    font-family: cybertext;
     }
 
 #wrapper{
