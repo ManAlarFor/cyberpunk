@@ -72,12 +72,18 @@ nav{
 
 @media only screen and (width<1200px) {
 
+    #hero {background-size: cover;}
     h1{font-size: 700%;}
 
 }
 
 @media only screen and (width<750px) {
+    
+    #hero {
+        background-size: cover;
+        width: 100%;
+    }
 
-    h1{font-size: 400%;}
+    h1{font-size: 350%;}
 
 }
