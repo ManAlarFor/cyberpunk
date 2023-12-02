@@ -1,5 +1,5 @@
 /**********************************************************************************************************/
-/*                                   Style Sheet for Cyberpunk web                                        */
+/*                                       Style Sheet for 2077 web                                         */
 /*                                        Author: Manuel Alarcón                                          */
 /*                                             version: 1.0                                               */
 /*                                   Comments: final project 2023-24                                      */
@@ -20,7 +20,7 @@
 /********************************general style********************************************/
 
 body{
-    background-image: url(../img/bckgrndpattern\(freepik\).png) ;
+    background-image: url(../img/fotosBladeRunner/haikei.blade.png) ;
     color:  #A8C4F5;
     }
 
@@ -30,28 +30,28 @@ html{
 
 h1{
     font-family: cybertitulo;
-    color: #F942DD;
+    color: #906495;
     position: absolute;
-    top: 100px;
-    left: 225px;
-    font-size: 1000%;
+    top: 20px;
+    left: 200px;
+    font-size: 900%;
     }
 
 h2{
     font-family: cybertitulo;
-    color: #F942DD;
+    color: #906495;
     }
 
 h3{
     font-family: cybertitulo;
-    color: #F942DD;
+    color: #906495;
     }
 
 button{
     font-family: cybertext;
     background-color:#17091B;
     color:#A8C4F5;
-    border-color: #F942DD;
+    border-color: #906495;
     font-size: 1em;
     border-radius: 10px;
     padding: 10px 7.5px;
@@ -59,18 +59,15 @@ button{
 }
 
 button:hover {
-    background-color: #F942DD ;
+    background-color: #906495 ;
     color:#17091B;
     border-color: #A8C4F5;
     cursor: pointer;
 }
 
-#cowboy{
-    font-size: 1.2em;
-}
 
 #wrapper{
-    width:80%;
+    width:80%; 
     margin:auto;
     background-color: #17091B;
     font-family: cybertext; 
@@ -81,7 +78,7 @@ button:hover {
 
 .card{
     width: 100%;
-    border: 1px solid #F942DD;
+    border: 1px solid #906495;
     border-radius: 4%;
     background-color: #17091B;
 }
@@ -108,8 +105,8 @@ button:hover {
 /*******************************hero***************************************/
 
 #hero{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(../img/neon-purple-aesthetic-cyberpunk-street-cb5c3lcj2lqr4z6f.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(../img/fotosBladeRunner/fondoblade.jpg);
     height: 100vh;
     width: 100%;
     background-size: cover;
@@ -132,16 +129,8 @@ button:hover {
 .grid-2_texto-foto{
     padding: 2%;
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 80% 20%;
 }
-
-.grid-2_foto-texto{
-    padding: 2%;
-    display: grid;
-    grid-template-columns: 20% 80%;
-    background-color: #1f0c24;
-}
-
 
 
 .col-2{padding: 4%;}
@@ -154,24 +143,6 @@ button:hover {
 .grid-2_foto-texto img{
     width: 100%;
     border-radius: 0% 0% 20% 0%;
-}
-
-/***********************************footer*******************************************/
-
-footer{
-    background-color: #17091B;
-    color: #A8C4F5;
-}
-
-.grid-3d{
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-
-#marca{
-    font-family: cybertitulo;
-    color: #F942DD;
-    font-size: 1.2em;
 }
 
 /************************************nav bar*******************************************/
@@ -203,7 +174,7 @@ nav{
     color: black;}
 
 .topnav a.active {
-    background-color: #F942DD;
+    background-color: #906495;
     color: white;
 }
 
@@ -218,26 +189,37 @@ nav{
     opacity: 70%;
     z-index: 98;}
 
-a .fa-arrow-circle-o-up{color: #F942DD;;}
+a .fa-arrow-circle-o-up{color: #906495;;}
+
+/***********************************footer*******************************************/
+
+footer{
+    background-color: #17091B;
+    color: #A8C4F5;
+}
+
+.grid-3d{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
 
 /***********************************responsibity********************************************/
 
 @media only screen and (width<1400px) {
 
-    #hero {size: cover;}
+    #hero {background-size: cover;}
     h1{
         font-size: 800%;
-        left: 300px;
+        left: 250px;
     }
-    #wrapper{width: 100%;
-    size: cover}
+    #wrapper{width: 100%;}
 
 }
 
 @media only screen and (width<1200px){
     h1{
         font-size: 670%;
-        left: 200px;
+        left: 150px;
     }
 
     #wrapper{width: 100%;}
@@ -259,7 +241,7 @@ a .fa-arrow-circle-o-up{color: #F942DD;;}
     }
     h1{
         font-size: 500%;
-        left: 150px;
+        left: 100px;
     }
     #wrapper{width: 100%;}
     
@@ -272,7 +254,7 @@ a .fa-arrow-circle-o-up{color: #F942DD;;}
     }
     h1{
         font-size: 450%;
-        left: 100px;
+        left: 50px;
     }
     #wrapper{width: 100%;}
 
@@ -290,7 +272,8 @@ a .fa-arrow-circle-o-up{color: #F942DD;;}
     }
     h1{
         font-size: 350%;
-        left: 40px;
+        top: 100px;
+        left: 0px;
     }
     #wrapper{width: 100%;}
 
@@ -308,7 +291,7 @@ a .fa-arrow-circle-o-up{color: #F942DD;;}
 
 /******responsibidad de nav bar******/
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
     float: right;
