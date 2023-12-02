@@ -33,7 +33,7 @@ h1{
     color: #f3e600;
     position: absolute;
     top: 20px;
-    left: 200px;
+    left: 150px;
     font-size: 900%;
     }
 
@@ -129,20 +129,14 @@ button:hover {
 .grid-2_texto-foto{
     padding: 2%;
     display: grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 60% 40%;
 }
-
 
 .col-2{padding: 4%;}
 
 .grid-2_texto-foto img{
     width: 100%;
     border-radius: 0% 0% 0% 20%;
-}
-
-.grid-2_foto-texto img{
-    width: 100%;
-    border-radius: 0% 0% 20% 0%;
 }
 
 /************************************nav bar*******************************************/
@@ -201,6 +195,12 @@ footer{
 .grid-3d{
     display: grid;
     grid-template-columns: 50% 50%;
+}
+
+#marca{
+    font-family: cybertitulo;
+    color: #f3e600;
+    font-size: 1.2em;
 }
 
 /***********************************responsibity********************************************/
