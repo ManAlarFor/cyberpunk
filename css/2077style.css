@@ -74,19 +74,20 @@ button:hover {
 }
 
 audio {
-    filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
-    width: 200px;
+    width: 190px;
     height: 25px;
 }
 
 
-    /************************************card dentro de grid-4*******************************/
+    /************************************cards**************************************/
 
 .card{
     width: 100%;
     border: 1px solid #f3e600;
     border-radius: 4%;
     background-color: #17091B;
+    width: 250px;
+    height: 550px;
 }
 
 .card:hover{
@@ -236,8 +237,14 @@ footer{
     .grid-2_texto-foto{
         grid-template-columns: 50% 50%;
     }
-
-    
+    .card{
+        width: 100%;
+        border: 1px solid #f3e600;
+        border-radius: 4%;
+        background-color: #17091B;
+        width: auto;
+        height: auto;
+    }
 }
 
 @media only screen and (width<900px) {
