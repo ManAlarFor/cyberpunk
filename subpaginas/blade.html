@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cyberpunk</title>
     <link rel="stylesheet" href="../css/bladestyle.css">
-    <link rel="shortcut icon" href="./img/vaporwave(FLATICON).png">
+    <link rel="shortcut icon" href="../img/vaporwave(FLATICON).png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="../js/cyberjs.js"></script>
 </head>
@@ -14,96 +14,94 @@
     <audio src="../sound/beeping-80664.mp3" id="bip"></audio>
 
     <nav>
-            <div class="topnav" id="myTopnav">
-                <a href="../index.html" class="active">Home</a>
-                <a href="#escritor">Writer</a>
-                <a href="#trilogy">Trilogy</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <div class="topnav" id="myTopnav">
+
+            <a href="../index.html" class="active">Home</a>
+            <a href="#og">Blade Runner</a>
+            <a href="#2049">Blade Runner 2049</a>
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
-                </a>
-            </div>
-        </nav>
+            </a>
+
+        </div>
+    </nav>
+
+
 
     <section id="hero">
 
+        <a href="#">
+            <i class="fa fa-arrow-circle-up" aria-hidden="true"></i>
+        </a>
 
-<a href="#">
-    <i class="fa fa-arrow-circle-up" aria-hidden="true"></i>
-</a>
+        <h1>Blade Runner</h1>
 
-<h1>Blade Runner</h1>
-
-<a href="#escritor">
-    <button  onclick="sound('bip')">
-        Dive into the net
-    </button>
-</a>
+        <a href="#og">
+            <button  onclick="sound('bip')">
+                Scape from society
+            </button>
+        </a>
 
     </section>
-    
+
+
+
+
     <div id="wrapper">
 
+        <section id="og">
 
+            <div class="grid-2_texto-foto">
 
-            <section id="escritor">
+                <div class="col-2"> 
 
-                <div class="grid-2_texto-foto">
-                    <div class="col-2"> 
-                    <h2>Writer</h2>
-                    <p>William Ford Gibson, born in Conway, South Carolina, grew up in an catholic environment which he didn't want to take part in.</p>
+                    <h2>Blade Runner (1982)</h2>
+                    <p>In a dystopic 2019 Los Angeles' version, humans have developed a way to create artificial versions of themselves by bio-engineering, called replicants, who had to deal with harmful and dangerous jobs such as the space colonies. This history, protagonized by Rick Deckard(Harrison Ford), follows the path of a group of replicants that could scape from this tasks. In first instance, this movie had both good and bad reviews, but time made this movie a classic that predicted lots of the problems the humanity would have to face.</p>
 
-                    <button  onclick="sound('bip')">Read More</button>
+                    <a href="https://www.warnerbros.com/movies/blade-runner" target="_blank"><button  onclick="sound('bip')">Official Site</button></a>
                 
-                    </div>
-
-                    <div class="col-2">
-                        <img src="./img/William_Gibson.jpg" alt="">
-                    </div>
-
                 </div>
 
-            </section>
-
-        <section id="trilogy">
-
-            <h2>Books of the trilogy</h2>
-    
-            <div class="grid-2_cards">
-    
-                <div class="col-4">
-    
-                    <div class="card">
-                        <img src="./img/neuromante.jpg" alt="">
-                        <h3></h3>
-                        <p></p>
-                    </div>
-    
-                </div>
-    
-                <div class="col-4">
-    
-                    <div class="card">
-                        <img src="./img/2077.jpg" alt="">
-                        <h3></h3>
-                        <p></p>
-                    </div>
-    
-                </div>
-    
-        </section>
-
-        
-        <footer>
-            <div class="grid-3d">
-                <div class="col-4">
-                    algo
-                </div>
-                <div class="col-4">
-                    algo
+                <div class="col-2">
+                    <img src="../img/fotosBladeRunner/original.jpg" alt="">
                 </div>
             </div>
-        </footer>
+        </section>
+
+
+        <section id="2049">
+            <div class="grid-2_foto-texto">
+
+                <div class="col-2"> 
+                    <img src="../img/fotosBladeRunner/litteraly_me.jpeg" alt="">
+                </div>
+                
+                <div class="col-2">
+
+                    <h2>Blade Runner 2049 (2017)</h2>
+                    <p>Settled 30 years after the original movie, this film tells the story of K(Ryan Gosling), who is an android created by bio-engineering to obbey, works for the L.A. Police retiring clandestine old replicants versions. He shares his life with his hollografic partner Joi(Ana de Armas). He will finally get involved in a problematic plot, getting them to know Rick Deckard(the protagonist of the first movie) and having to deal with an excentric multimillionaire.</p>
+    
+                    <a href="https://www.bladerunner2049movie.com" target="_blank"><button  onclick="sound('bip')">Official Site</button></a>
+                
+                </div>
+            </div>
+        </section>
+
+
+    <footer>
+        <div class="grid-3d">
+            <div id="marca" class="col-4">
+                Cyberpunk
+            </div>
+            <div class="col-4">
+                All rights of the mentiones brands are from their respective owners.
+            </div>
+        </div>
+    </footer>
 
     </div>
+
+
 </body>
 </html>

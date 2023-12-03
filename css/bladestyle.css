@@ -32,7 +32,7 @@ h1{
     font-family: cybertitulo;
     color: #906495;
     position: absolute;
-    top: 20px;
+    top: 40px;
     left: 200px;
     font-size: 900%;
     }
@@ -74,7 +74,7 @@ button:hover {
     }
     
 
-    /************************************card dentro de grid-4*******************************/
+    /************************************cards*******************************/
 
 .card{
     width: 100%;
@@ -110,7 +110,7 @@ button:hover {
     height: 100vh;
     width: 100%;
     background-size: cover;
-    background-position: 35%;
+    background-position: 25%;
     position: relative;
     }
 
@@ -129,7 +129,14 @@ button:hover {
 .grid-2_texto-foto{
     padding: 2%;
     display: grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 65% 35%;
+}
+
+.grid-2_foto-texto{
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    background-color: #210d27;
 }
 
 
@@ -203,6 +210,12 @@ footer{
     grid-template-columns: 50% 50%;
 }
 
+#marca{
+    font-family: cybertitulo;
+    color: #906495;
+    font-size: 1.2em;
+}
+
 /***********************************responsibity********************************************/
 
 @media only screen and (width<1400px) {
@@ -272,8 +285,8 @@ footer{
     }
     h1{
         font-size: 350%;
-        top: 100px;
-        left: 0px;
+        top: 200px;
+        left: 30px;
     }
     #wrapper{width: 100%;}
 
