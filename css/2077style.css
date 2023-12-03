@@ -71,8 +71,14 @@ button:hover {
     margin:auto;
     background-color: #17091B;
     font-family: cybertext; 
-    }
-    
+}
+
+audio {
+    filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+    width: 200px;
+    height: 25px;
+}
+
 
     /************************************card dentro de grid-4*******************************/
 
@@ -129,7 +135,7 @@ button:hover {
 .grid-2_texto-foto{
     padding: 2%;
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 50% 50%;
 }
 
 .col-2{padding: 4%;}
@@ -176,14 +182,14 @@ nav{
     display: none;
 }
 
-.fa-arrow-circle-o-up{position: fixed;
+.fa-arrow-circle-up{position: fixed;
     bottom: 50px;
     right: 50px;
     font-size: 3em !important;
     opacity: 70%;
     z-index: 98;}
 
-a .fa-arrow-circle-o-up{color: #f3e600;;}
+a .fa-arrow-circle-up{color: #f3e600;;}
 
 /***********************************footer*******************************************/
 
