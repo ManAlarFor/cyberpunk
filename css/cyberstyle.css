@@ -1,5 +1,5 @@
 /**********************************************************************************************************/
-/*                                   Style Sheet for Cyberpunk web                                        */
+/*                                   Style Sheet for Origins web                                        */
 /*                                        Author: Manuel Alarcón                                          */
 /*                                             version: 1.0                                               */
 /*                                   Comments: final project 2023-24                                      */
@@ -46,6 +46,14 @@ h3{
     font-family: cybertitulo;
     color: #F942DD;
     }
+
+h4{
+    font-family: cybertitulo;
+    color: #F942DD;
+    font-size: 300%;
+    padding-top: 10%;
+    text-align: center;
+}
 
 button{
     font-family: cybertext;
