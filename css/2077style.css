@@ -223,9 +223,20 @@ footer{
 #marca{
     font-family: cybertitulo;
     color: #f3e600;
-    font-size: 1.2em;
+    font-size: 4em;
+    text-align: center;
+    padding: auto;
 }
 
+.fa-github{
+    color: #A8C4F5;
+    font-size: 1.5em !important;
+}
+
+#enlaces{
+    color: #A8C4F5 !important;
+    text-decoration: none !important;
+}
 /***********************************responsibity********************************************/
 
 @media only screen and (width<1400px) {
