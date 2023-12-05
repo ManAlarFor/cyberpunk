@@ -33,7 +33,7 @@ h1{
     color: #F942DD;
     position: absolute;
     top: 100px;
-    left: 225px;
+    left: 200px;
     font-size: 1000%;
     }
 
@@ -183,7 +183,19 @@ footer{
 #marca{
     font-family: cybertitulo;
     color: #F942DD;
-    font-size: 1.2em;
+    font-size: 4em;
+    text-align: center;
+    padding: auto;
+}
+
+.fa-github{
+    color: #A8C4F5;
+    font-size: 1.5em !important;
+}
+
+#enlaces{
+    color: #A8C4F5 !important;
+    text-decoration: none !important;
 }
 
 /************************************nav bar*******************************************/
