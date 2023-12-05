@@ -55,7 +55,6 @@ button{
     font-size: 1em;
     border-radius: 10px;
     padding: 10px 7.5px;
-    float: right;
 }
 
 button:hover {
@@ -95,11 +94,15 @@ button:hover {
 
 .card{
     width: 100%;
-    border: 1px solid #f3e600;
+    border: 1px solid #F942DD;
     border-radius: 4%;
     background-color: #17091B;
-    width: 250px;
-    height: 560px;
+}
+
+.card button{
+    display: block;
+    margin:10px ;
+    text-decoration: none;
 }
 
 .card:hover{

@@ -1,5 +1,5 @@
 /**********************************************************************************************************/
-/*                                   Style Sheet for Origins web                                        */
+/*                                   Style Sheet for Cyberpunk web                                        */
 /*                                        Author: Manuel Alarcón                                          */
 /*                                             version: 1.0                                               */
 /*                                   Comments: final project 2023-24                                      */
@@ -63,7 +63,6 @@ button{
     font-size: 1em;
     border-radius: 10px;
     padding: 10px 7.5px;
-    float: right;
 }
 
 button:hover {
@@ -94,6 +93,11 @@ button:hover {
     background-color: #17091B;
 }
 
+.card button{
+    display: block;
+    margin:10px ;
+    text-decoration: none;
+}
 .card:hover{
     box-shadow:3px 3px 3px #A8C4F5;
 }

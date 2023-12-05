@@ -1,5 +1,5 @@
 /**********************************************************************************************************/
-/*                                   Style Sheet for Neuromant web                                        */
+/*                                   Style Sheet for Origins web                                          */
 /*                                        Author: Manuel Alarcón                                          */
 /*                                             version: 1.0                                               */
 /*                                   Comments: final project 2023-24                                      */
@@ -20,45 +20,37 @@
 /********************************general style********************************************/
 
 body{
-    background-image: url(../img/fotosNeuro/haikei.neuro.png) ;
+    background-image: url(../img/bckgrndpattern\(freepik\).png) ;
     color:  #A8C4F5;
-    }
-
-html{
-    scroll-behavior: smooth;
 }
-
-h1{
-    font-family: cybertitulo;
-    color: #F74E73;
-    position: absolute;
-    top: 20px;
-    left: 200px;
-    font-size: 900%;
-    }
-
-h2{
-    font-family: cybertitulo;
-    color: #F74E73;
-    }
 
 h3{
     font-family: cybertitulo;
-    color: #F74E73;
+    color: #F942DD;
+    font-size: 1.7em !important;
     }
+
+h4{
+    font-family: cybertitulo;
+    color: #F942DD;
+    font-size: 600%;
+    padding-top: 10%;
+    text-align: center;
+}
 
 button{
     font-family: cybertext;
     background-color:#17091B;
     color:#A8C4F5;
-    border-color: #F74E73;
+    border-color: #F942DD;
     font-size: 1em;
     border-radius: 10px;
     padding: 10px 7.5px;
+    float: right;
 }
 
 button:hover {
-    background-color: #F74E73 ;
+    background-color: #F942DD ;
     color:#17091B;
     border-color: #A8C4F5;
     cursor: pointer;
@@ -66,77 +58,187 @@ button:hover {
 
 
 #wrapper{
-    width:80%; 
+    width:80%;
     margin:auto;
     background-color: #17091B;
     font-family: cybertext; 
     }
     
 
-    /************************************cards*******************************/
+/**************************accordion*****************************/
 
-.card{
+*,
+*::before,
+*::after{
+    margin:0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+section {
     width: 100%;
-    border: 1px solid #F942DD;
-    border-radius: 4%;
+    height: 80vh;
     background-color: #17091B;
-}
-.card:hover{
-    box-shadow:3px 3px 3px #A8C4F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.card img{
+.container{
     width: 100%;
-    border-radius: 4% 4% 0% 0%;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
 }
 
-.col-4{padding: 4%;}
-
-.grid-2_cards{
-    padding: 2%;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: #1f0c24;
+.accordion-item{
+    background-color: #17091B;
+    border-radius: .4rem;
 }
 
+.accordion-item hr{
+    border: 1px solid #F942DD;
+}
 
-/*******************************hero***************************************/
-
-#hero{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(../img/fotosNeuro/neuromante.jpg);
-    height: 100vh;
+.accordion-link{
+    font-size: 1.6rem;
+    color: rgba(255,255,255,.8);
+    text-decoration: none;
+    background-color: #17091B;
     width: 100%;
-    background-size: cover;
-    background-position: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.accordion-link h3{
+    font-weight:500;
+    font-size: 20px;
+}
+
+.accordion-link i{
+    color: #e7d5ff;
+    padding: .5rem;
+}
+
+.accordion-link ul{
+    display:flex;
+    align-items: flex-end;
+    list-style-type: none;
+    margin-left: 25px;
+}
+
+.accordion-link li{
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.4);
+    padding: 0 0 1px 5px;
+}
+
+.accordion-link div{
+    display: flex;
+}
+
+.accordion-link .ion-md-arrow-down{
+    display: none;
+}
+
+.answer{
+    max-height: 0;
+    overflow: hidden;
     position: relative;
-    }
+    background-color: #1f0c24;
+    transition: max-height 650ms;
+}
 
-#hero button{
-    font-size: medium !important;
-    border-radius: 10px;
-    padding: 20px 15px;
-    position:absolute; 
-    top: 66%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    }
+.answer p{
+    color: #A8C4F5;
+    font-size: 15px;
+    padding: 2rem;
+}
+
+.accordion-item:target .answer{
+    max-height: 20rem;
+}
+
+.accordion-item:target .accordion-link .ion-md-arrow-forward{
+    display: none
+}
+
+.accordion-item:target .accordion-link .ion-md-arrow-down{
+    display: block;
+}
+
+.icon{
+    color: #F942DD;
+}
 
 /********************************Intro Setion grid-2***********************************/
 
 .grid-2_texto-foto{
     padding: 2%;
     display: grid;
-    grid-template-columns: 85% 15%;
+    grid-template-columns: 70% 30%;
+}
+
+.grid-2_foto-texto{
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    background-color: #1f0c24;
 }
 
 
-.col-2{padding: 4%;}
+
+.col-2{padding: 4%;
+    font-size: 1.4;}
 
 .grid-2_texto-foto img{
     width: 100%;
     border-radius: 0% 0% 0% 20%;
 }
+
+.grid-2_foto-texto img{
+    width: 100%;
+    border-radius: 0% 0% 20% 0%;
+}
+
+/***********************************footer*******************************************/
+
+footer{
+    background-color: #17091B;
+    color: #A8C4F5;
+}
+
+.grid-3d{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#marca{
+    font-family: cybertitulo;
+    color: #F942DD;
+    font-size: 4em;
+    text-align: center;
+    padding: auto;
+}
+
+.fa-github{
+    color: #A8C4F5;
+    font-size: 1.5em !important;
+}
+
+#enlaces{
+    color: #A8C4F5 !important;
+    text-decoration: none !important;
+}
+
 /************************************nav bar*******************************************/
 nav{
     position: sticky;
@@ -166,7 +268,7 @@ nav{
     color: black;}
 
 .topnav a.active {
-    background-color: #F74E73;
+    background-color: #F942DD;
     color: white;
 }
 
@@ -181,63 +283,38 @@ nav{
     opacity: 70%;
     z-index: 98;}
 
-a .fa-arrow-circle-up{color: #F74E73;;}
-
-/***********************************footer*******************************************/
-
-footer{
-    background-color: #17091B;
-    color: #A8C4F5;
-}
-
-.grid-3d{
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-
-#marca{
-    font-family: cybertitulo;
-    color: #F74E73;
-    font-size: 4em;
-    text-align: center;
-    padding: auto;
-}
-
-.fa-github{
-    color: #A8C4F5;
-    font-size: 1.5em !important;
-}
-
-#enlaces{
-    color: #A8C4F5 !important;
-    text-decoration: none !important;
-}
-
+a .fa-arrow-circle-up{color: #F942DD;;}
 
 /***********************************responsibity********************************************/
 
 @media only screen and (width<1400px) {
 
-    #hero {background-size: cover;}
+    #hero {size: cover;}
     h1{
         font-size: 800%;
-        left: 250px;
+        left: 300px;
     }
-    #wrapper{width: 100%;}
+    #wrapper{width: 100%;
+    size: cover}
 
 }
 
 @media only screen and (width<1200px){
     h1{
         font-size: 670%;
-        left: 150px;
+        left: 200px;
     }
 
     #wrapper{width: 100%;}
 
     .grid-2_cards{
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto;
     }
+    .grid-2_texto-foto{
+        grid-template-columns: 50% 50%;
+    }
+
+    
 }
 
 @media only screen and (width<900px) {
@@ -247,7 +324,7 @@ footer{
     }
     h1{
         font-size: 500%;
-        left: 100px;
+        left: 150px;
     }
     #wrapper{width: 100%;}
     
@@ -260,9 +337,15 @@ footer{
     }
     h1{
         font-size: 450%;
-        left: 50px;
+        left: 100px;
     }
     #wrapper{width: 100%;}
+
+    
+    
+    .grid-2_foto-texto{
+        grid-template-columns: 40% 60%;
+    }
 }
 
 @media only screen and (width<650px) {
@@ -271,9 +354,8 @@ footer{
         width: 100%;
     }
     h1{
-        font-size: 250%;
-        top: 175px;
-        left: 15px;
+        font-size: 300%;
+        left: 25px;
     }
     #wrapper{width: 100%;}
 
@@ -286,16 +368,12 @@ footer{
     h2{
         font-size: 125%;
     }
-
-    .grid-2_texto-foto{
-        grid-template-columns: 50% 50%;
-    }
 }
 
 
 /******responsibidad de nav bar******/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
     float: right;

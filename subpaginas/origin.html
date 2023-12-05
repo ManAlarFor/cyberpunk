@@ -4,34 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cyberpunk</title>
-    <link rel="stylesheet" href="../css/cyberstyle.css">
+    <link rel="stylesheet" href="../css/substyle.css">
     <link rel="shortcut icon" href="../img/vaporwave(FLATICON).png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="../js/cyberjs.js"></script>
+    
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet"> 
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
 </head>
+
 <body>
 
-<audio src="./sound/beeping-80664.mp3" id="bip"></audio>
+    <audio src="./sound/beeping-80664.mp3" id="bip"></audio>
+    
+    <nav>
+        <div class="topnav" id="myTopnav">
+            <a href="../index.html" class="active">Home</a>
+            <a href="#explicacion">Starting off</a>
+            
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </nav>
 
-<nav>
-    <div class="topnav" id="myTopnav">
-        <a href="../index.html" class="active">Home</a>
-        <a href="#explicacion">Starting off</a>
-        <a href="#origen">Origins</a>
-
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
-    </div>
-</nav>
-
-
+    
 <div id="wrapper">
-    <h4>Origins</h4>
-    <section id="explicacion">
+<h4>Origins</h4>
+<section>
+<div class="container">
+    <div class="accordion">
+    <div class="accordion-item" id="question1">
+        <a class="accordion-link" href="#question1">
+        <div class="flex">
+            <h3>How it all started</h3>
+        </div>
+        <i class="icon ion-md-arrow-forward"></i>
+        <i class="icon ion-md-arrow-down"></i>
+        </a>
+        <div class="answer">
             <div class="grid-2_texto-foto">
                 <div class="col-2"> 
-                <h2>How it all started</h2>
+                
+                <p>The very first Cyberpunk media even before the creation of the term were the american comic Judge Dredd and the japanese manga Akira, both showing a dystopic future and a society colapse. However, the start of this genre is almost always settled by some writters that wrote stories fulled of social critics, as William Gibson, with his book Neuromant,</p>
+
+                </div>
+
+                <div class="col-2">
+                    <img src="../img/akira.png" alt="">
+                </div>
+
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="accordion-item" id="question2">
+        <a class="accordion-link" href="#question2">
+        <div class="flex">
+            <h3>Retrofuturism</h3>
+        </div>
+        <i class="icon ion-md-arrow-forward"></i>
+        <i class="icon ion-md-arrow-down"></i>
+        </a>
+        <div class="answer">
+            <div class="grid-2_foto-texto">
+                <div class="col-2"> 
+                
+                    <img src="../img/akira.png" alt="">
+                    
+                </div>
+                
+                <div class="col-2">
+                    <p>The very first Cyberpunk media even before the creation of the term were the american comic Judge Dredd and the japanese manga Akira, both showing a dystopic future and a society colapse. However, the start of this genre is almost always settled by some writters that wrote stories fulled of social critics, as William Gibson, with his book Neuromant,</p>
+                </div>
+
+            </div>
+        </div>
+        <hr>
+    </div>
+    </div>
+</div>
+</section>
+
+
+<!--    <section id="explicacion">
+            <div class="grid-2_texto-foto">
+                <div class="col-2"> 
+                
                 <p>The very first Cyberpunk media even before the creation of the term were the american comic Judge Dredd and the japanese manga Akira, both showing a dystopic future and a society colapse.</p>
                 <p>However, the start of this genre is almost always settled by some writters that wrote stories fulled of social critics, as William Gibson, with his book Neuromant,</p>
 
@@ -42,7 +102,7 @@
                 </div>
 
             </div>
-    </section>
+    </section>-->
 
 <footer>
     <div id="marca">
@@ -56,7 +116,7 @@
 
         <div class="col-4">
             <p>All rights of the mentiones brands are from their respective owners.</p>
-            <p id="enlaces"><a href="#"></a>-<a href="#"></a>-<a href="#"></a>-<a href="#"></a></p>
+            <p id="enlaces"><a href="#explicacion"></a>-<a href="#"></a>-<a href="#"></a>-<a href="#"></a></p>
         </div>
     </div>
 </footer>
