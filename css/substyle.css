@@ -24,10 +24,15 @@ body{
     color:  #A8C4F5;
 }
 
+h2{
+    font-family: cybertitulo;
+    color: #F942DD;
+    }
+
 h3{
     font-family: cybertitulo;
     color: #F942DD;
-    font-size: 1.7em !important;
+    font-size: 1.7em;
     }
 
 h4{
@@ -175,10 +180,6 @@ section {
     display: block;
 }
 
-.icon{
-    color: #F942DD;
-}
-
 /********************************Intro Setion grid-2***********************************/
 
 .grid-2_texto-foto{
@@ -224,7 +225,7 @@ footer{
 #marca{
     font-family: cybertitulo;
     color: #F942DD;
-    font-size: 4em;
+    font-size: 3em;
     text-align: center;
     padding: auto;
 }
@@ -290,39 +291,37 @@ a .fa-arrow-circle-up{color: #F942DD;;}
 @media only screen and (width<1400px) {
 
     #hero {size: cover;}
-    h1{
+    h3{
         font-size: 800%;
         left: 300px;
     }
-    #wrapper{width: 100%;
-    size: cover}
-
+    
 }
 
 @media only screen and (width<1200px){
-    h1{
+    h3{
         font-size: 670%;
         left: 200px;
     }
-
+    
     #wrapper{width: 100%;}
-
+    
     .grid-2_cards{
         grid-template-columns: auto auto;
     }
-    .grid-2_texto-foto{
-        grid-template-columns: 50% 50%;
-    }
-
+    
     
 }
 
 @media only screen and (width<900px) {
+    .grid-2_texto-foto{
+        grid-template-columns: 60% 40%;
+    }
     #hero {
         background-size: cover;
         width: 100%;
     }
-    h1{
+    h3{
         font-size: 500%;
         left: 150px;
     }
@@ -331,16 +330,26 @@ a .fa-arrow-circle-up{color: #F942DD;;}
 }
 
 @media only screen and (width<800px) {
+    #wrapper{width: 100%;
+    size: cover}
+    
+    
+    .grid-2_texto-foto{
+        grid-template-columns: 60% 40%;
+    }
+
     #hero {
         background-size: cover;
         width: 100%;
     }
-    h1{
+    h3{
         font-size: 450%;
         left: 100px;
     }
     #wrapper{width: 100%;}
 
+    p{font-size:0.7em !important;
+    }
     
     
     .grid-2_foto-texto{
@@ -353,13 +362,18 @@ a .fa-arrow-circle-up{color: #F942DD;;}
         background-size: cover;
         width: 100%;
     }
-    h1{
-        font-size: 300%;
+    h3{
+        font-size: 250%;
         left: 25px;
     }
+
+    h4{
+        font-size: 400%;
+    }
+
+
     #wrapper{width: 100%;}
 
-    p{font-size: small;}
 
     .grid-2_cards{
         grid-template-columns: auto;

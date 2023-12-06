@@ -67,7 +67,7 @@ button:hover {
 
 
 #wrapper{
-    width:80%; 
+    width:80% !important; 
     margin:auto;
     background-color: #17091B;
     font-family: cybertext; 
@@ -213,7 +213,7 @@ footer{
 #marca{
     font-family: cybertitulo;
     color: #906495;
-    font-size: 4em;
+    font-size: 3em;
     text-align: center;
     padding: auto;
 }
