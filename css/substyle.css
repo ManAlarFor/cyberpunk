@@ -240,6 +240,22 @@ footer{
     text-decoration: none !important;
 }
 
+
+a:link{
+    color: #A8C4F5;
+    text-decoration: none;
+}
+
+a:visited{color: #A8C4F5;}
+
+a:hover {
+    color: #F942DD; 
+    box-shadow: -1px 2px 0px #F942DD; 
+}
+
+a:active { text-decoration: none; }
+
+
 #rights{
     text-align: right;
 }
@@ -356,6 +372,9 @@ a .fa-arrow-circle-up{color: #F942DD;;}
     p{font-size:0.7em !important;
     }
     
+    .fa-arrow-circle-up{
+        font-size: 2em !important;
+        }
     
     .grid-2_foto-texto{
         grid-template-columns: 40% 60%;

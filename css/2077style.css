@@ -242,6 +242,22 @@ footer{
     text-decoration: none !important;
 }
 
+
+a:link{
+    color: #A8C4F5;
+    text-decoration: none;
+}
+
+a:visited{color: #A8C4F5;}
+
+a:hover {
+    color: #f3e600; 
+    box-shadow: -1px 2px 0px #f3e600; 
+}
+
+a:active { text-decoration: none; }
+
+
 #rights{
     text-align: right;
 }
@@ -308,7 +324,9 @@ footer{
     }
     #wrapper{width: 100%;}
 
-    
+    .fa-arrow-circle-up{
+        font-size: 2em !important;
+        }
     
     .grid-2_foto-texto{
         grid-template-columns: 40% 60%;

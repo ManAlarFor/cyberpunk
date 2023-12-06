@@ -213,6 +213,22 @@ footer{
     text-decoration: none !important;
 }
 
+
+a:link{
+    color: #A8C4F5;
+    text-decoration: none;
+}
+
+a:visited{color: #A8C4F5;}
+
+a:hover {
+    color: #F74E73; 
+    box-shadow: -1px 2px 0px #F74E73; 
+}
+
+a:active { text-decoration: none; }
+
+
 #rights{
     text-align: right;
 }
@@ -261,6 +277,11 @@ footer{
         background-size: cover;
         width: 100%;
     }
+
+    .fa-arrow-circle-up{
+        font-size: 2em !important;
+        }
+
     h1{
         font-size: 450%;
         left: 50px;

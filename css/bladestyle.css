@@ -295,7 +295,9 @@ a:active { text-decoration: none; }
     }
     #wrapper{width: 100%;}
 
-    
+    .fa-arrow-circle-up{
+        font-size: 2em !important;
+        }
     
     .grid-2_foto-texto{
         grid-template-columns: 40% 60%;
