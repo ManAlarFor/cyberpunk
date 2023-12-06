@@ -202,6 +202,10 @@ footer{
     text-decoration: none !important;
 }
 
+#rights{
+    text-align: right;
+}
+
 /************************************nav bar*******************************************/
 nav{
     position: sticky;
@@ -239,7 +243,8 @@ nav{
     display: none;
 }
 
-.fa-arrow-circle-up{position: fixed;
+.fa-arrow-circle-up{
+    position: fixed;
     bottom: 50px;
     right: 50px;
     font-size: 3em !important;
@@ -300,12 +305,14 @@ a .fa-arrow-circle-up{color: #F942DD;;}
     }
     h1{
         font-size: 450%;
-        left: 100px;
+        left: 140px;
     }
     #wrapper{width: 100%;}
 
-    
-    
+    .fa-arrow-circle-up{
+        font-size: 2em !important;
+        }
+
     .grid-2_foto-texto{
         grid-template-columns: 40% 60%;
     }

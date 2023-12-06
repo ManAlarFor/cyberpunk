@@ -222,6 +222,10 @@ footer{
     text-decoration: none !important;
 }
 
+#rights{
+    text-align: right;
+}
+
 /***********************************responsibity********************************************/
 
 @media only screen and (width<1400px) {

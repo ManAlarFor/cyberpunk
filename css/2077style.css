@@ -240,6 +240,11 @@ footer{
     color: #A8C4F5 !important;
     text-decoration: none !important;
 }
+
+#rights{
+    text-align: right;
+}
+
 /***********************************responsibity********************************************/
 
 @media only screen and (width<1400px) {

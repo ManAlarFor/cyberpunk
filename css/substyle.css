@@ -240,6 +240,10 @@ footer{
     text-decoration: none !important;
 }
 
+#rights{
+    text-align: right;
+}
+
 /************************************nav bar*******************************************/
 nav{
     position: sticky;
