@@ -191,7 +191,7 @@ section {
 .grid-2_foto-texto{
     padding: 2%;
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 30% 70%;
     background-color: #1f0c24;
 }
 
@@ -319,8 +319,13 @@ a .fa-arrow-circle-up{color: #F942DD;;}
 
 @media only screen and (width<900px) {
     .grid-2_texto-foto{
-        grid-template-columns: 60% 40%;
+        grid-template-columns: 55% 45%;
     }
+
+    h4{
+        font-size: 400%;
+    }
+
     #hero {
         background-size: cover;
         width: 100%;
@@ -337,10 +342,6 @@ a .fa-arrow-circle-up{color: #F942DD;;}
     #wrapper{width: 100%;
     size: cover}
     
-    
-    .grid-2_texto-foto{
-        grid-template-columns: 60% 40%;
-    }
 
     #hero {
         background-size: cover;
@@ -372,9 +373,8 @@ a .fa-arrow-circle-up{color: #F942DD;;}
     }
 
     h4{
-        font-size: 400%;
+        font-size: 250%;
     }
-
 
     #wrapper{width: 100%;}
 

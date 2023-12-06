@@ -10,19 +10,19 @@
 @font-face{
     font-family: cybertitulo;
     src: url(../font/KogniGear.ttf);
-    }
+}
 
 @font-face {
     font-family: cybertext;
     src: url(../font/spacejunkXL.ttf);
-    }
+}
 
 /********************************general style********************************************/
 
 body{
     background-image: url(../img/fotos2077/haikei.2077.png) ;
     color:  #A8C4F5;
-    }
+}
 
 html{
     scroll-behavior: smooth;
@@ -35,17 +35,17 @@ h1{
     top: 20px;
     left: 150px;
     font-size: 900%;
-    }
+}
 
 h2{
     font-family: cybertitulo;
     color: #f3e600;
-    }
+}
 
 h3{
     font-family: cybertitulo;
     color: #f3e600;
-    }
+}
 
 button{
     font-family: cybertext;
@@ -55,6 +55,7 @@ button{
     font-size: 1em;
     border-radius: 10px;
     padding: 10px 7.5px;
+    text-decoration: none;
 }
 
 button:hover {
