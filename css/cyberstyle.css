@@ -397,6 +397,10 @@ a .fa-arrow-circle-up{color: #F942DD;;}
     .grid-2_foto-texto{
         grid-template-columns: 40% 60%;
     }
+
+    .row {
+        grid-template-columns: auto ;
+    }
 }
 
 @media only screen and (width<650px) {
@@ -424,7 +428,7 @@ a .fa-arrow-circle-up{color: #F942DD;;}
 
 /******responsibidad de nav bar******/
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
     float: right;
