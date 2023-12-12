@@ -28,5 +28,11 @@
   <li>Cyberpunk 2077</li>
   <li>Cowboy Bebop</li>
   <li>Blade Runner</li>
-  <li>Footer</li>
 </ul>
+
+<h3>Hero Section</h3>
+<img src="./bm-readme/hero.png" alt="imagen de hero section" style="width:50%">
+<p>He utilizado una imagen de fondo tomada de .... que se adapta fácilmente a diferentes dispositivos....<br>
+Sobre ella he colocado un Call to Action que he estilado a partir de ....<br>
+(una breve explicación)</p>
+
