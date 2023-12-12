@@ -31,8 +31,14 @@
 </ul>
 
 <h3>Página inicial</h3>
-<img src="./img/capturas-readme/CapturaPrincipal" alt="imagen de principal" style="width:50%">
-<p>He utilizado una imagen de fondo tomada de .... que se adapta fácilmente a diferentes dispositivos....<br>
-Sobre ella he colocado un Call to Action que he estilado a partir de ....<br>
-(una breve explicación)</p>
+<img src="./img/capturas-readme/CapturaPrincipal.png" alt="imagen de principal" style="width:50%">
+<p>He utilizado una imagen de fondo tomada de Getty Wallpaper (http://m.gettywallpapers.com/cyberpunk-4k-wallpapers/) que se adapta fácilmente a diferentes dispositivos.En esta misma pagina tengo otras secciones que daran lugar a las demás subpáginas: ¿Qué es el cyberpunk?, Origenes, Caraterísticas, Ejemplos en los medios (Neuromante, Cyberpunk 2077, Cowboy Bebop y Blade Runner), así como una galería de las imagenes usadas. Sobre ella he colocado un Call to Action que he estilado a partir de un button estilizado para ir acorde a la estética de la página.</p>
+
+<h3>Orígenes del género y Características</h3>
+<img src="./img/capturas-readme/CapturaOrigins.png" alt="imagen de principal" style="width:50%"> <img src="./img/capturas-readme/CapturaCharacteristics.png" alt="imagen de principal" style="width:50%"> 
+<p>Estas paginas similares estan compuestas por un accordion, dividiendo las páginas en dos secciones</p>
+
+<h3>Neuromante</h3>
+<img src="./img/capturas-readme/CapturaNeuro.png" alt="imagen de principal" style="width:50%">
+<p>He utilizado una imagen de fondo tomada de Getty Wallpaper (http://m.gettywallpapers.com/cyberpunk-4k-wallpapers/) que se adapta fácilmente a diferentes dispositivos.En esta misma pagina tengo otras secciones que daran lugar a las demás subpáginas: ¿Qué es el cyberpunk?, Origenes, Caraterísticas, Ejemplos en los medios (Neuromante, Cyberpunk 2077, Cowboy Bebop y Blade Runner), así como una galería de las imagenes usadas. Sobre ella he colocado un Call to Action que he estilado a partir de un button estilizado para ir acorde a la estética de la página.</p>
 
