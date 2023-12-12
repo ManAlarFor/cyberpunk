@@ -33,7 +33,7 @@ h1{
     color: #2D90D3;
     position: absolute;
     top: 40px;
-    left: 125px;
+    left: 100px !important;
     font-size: 900%;
     }
 
