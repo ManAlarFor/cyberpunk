@@ -17,3 +17,16 @@
 
 <h2 id="motivacion">Motivación</h2>
 <p>He decidido hacer esta página web sobre el género Cyberpunk y sobre obras célebres relacionadas con este ya que es un tema que me atrae por su relación con el retrofuturismo, lo cual me parece muy interesante por las formas en la que la gente puede ver el futuro, ya sea utópico o distópico.</p>
+
+<h2 id="estructura">Estructura</h2>
+<p>La web está dividida en  7 subpáginas:</p>
+<ol>
+  <li>La pagina principal</li>  
+  <li>Orígenes del género</li>
+  <li>Características del mismo</li>
+  <li>Neuromante</li>
+  <li>Cyberpunk 2077</li>
+  <li>Cowboy Bebop</li>
+  <li>Blade Runner</li>
+  <li>Footer</li>
+</ul>
