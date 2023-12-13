@@ -88,6 +88,6 @@
 
 
 <h3>Audios</h3>
-<p>Bip de los botones: https://pixabay.com/es/sound-effects/search/electric%20bip/</p>
+<p>Sonido de los botones: https://pixabay.com/es/sound-effects/search/electric%20bip/</p>
 <p>Tema pricipal de Cyberpunk 2077: https://youtu.be/mhehxYhXG5Q?si=1JMI_lVRoFnORQrl</p>
 <p>Tema pricipal de Cyberpunk Edgerunners: https://youtu.be/OifiVCnFKzM?si=I6tPae3yRTHqK4cl</p>
