@@ -410,6 +410,11 @@ a .fa-arrow-circle-up{color: #F942DD;;}
         background-size: cover;
         width: 100%;
     }
+
+    #marca{
+        font-size: 1.9em;
+    }
+
     h1{
         font-size: 250%;
         left: 30px;
