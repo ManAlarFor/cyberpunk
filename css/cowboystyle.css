@@ -313,7 +313,7 @@ a:active { text-decoration: none; }
     h1{
         font-size: 350%;
         top: 100px;
-        left: 10px;
+        left: 10px!important;
     }
     #wrapper{width: 100%;}
 
