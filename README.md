@@ -82,10 +82,16 @@
 <p>                                       -Videojuegos   :https://es.wallpapers.com/fondos-de-pantalla/fotode-retrato-en-cyberpunk-2077-para-android-utmix59jtm9wug8t.html</p>
 <p>                                       -Libros        :https://www.jokercomics.es/libro/cyberpunk-2077-wheres-johny_117162</p>
 <p>                                       -Anime         :https://www.reddit.com/r/Dominican/comments/xegsrv/primer_personaje_de_anime_dominicano/</p>
-
-
-
-
+<h4>Cowboy Bebop</h4>
+<p>La foto de la sección de la card de la página principal es de Pinterest: https://www.pinterest.es/pin/365987907224252707/s</p>
+<p>La foto de la sección del argumento es de la página de Artstation: https://www.artstation.com/artwork/ZaJK4R</p>
+<p>Las fotos de la tripulación son de: -Spike Spiegel: https://www.pinterest.com.mx/pin/613334043025405526/</p>
+<p>                                    -Jet Black: https://www.amazon.es/Cowboy-Bebop-Reino-Unido-DVD/dp/B000BBOUMW</p>
+<p>                                    -Faye Valentine: https://www.reddit.com/r/cowboybebop/comments/1723c8q/faye_valentine_wallpaper_oc/</p>
+<p>                                    -Ed and Ein:https://www.reddit.com/r/cowboybebop/comments/rcgz96/bebop_art_card_scans_from_the_new_limited_edition/</p>
+<h4>Blade Runner</h4>
+<p>La foto de la sección de Blade Runner es de la página de National Geographic: https://historia.nationalgeographic.com.es/a/philip-k-dick-maestro-mundos-alternativos_15958</p>
+<p>La foto de la sección de Blade Runner 2049 es de la página de Floxer: https://www.flooxernow.com/noticias/blade-runner-2049-pelicula-imperfecta-pero-esta-altura-original_2017100359d7008e0cf29f7c62da7984.html</p>
 
 <h3>Audios</h3>
 <p>Sonido de los botones: https://pixabay.com/es/sound-effects/search/electric%20bip/</p>
