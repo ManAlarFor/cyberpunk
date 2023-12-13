@@ -57,11 +57,36 @@
 <h2 id="estilo">Estilo de la página</h2>
 <h3>Paleta de colores</h3>
 <p>Dependerá de la página, pero principalmente son #A8C4F5 (texto) y #17091B (fondo). Dependiendo de la subpágina, el color de resalte será: #F942DD (principal, origin y características), #F74E73 (Neuromante), #2D90D3 (Cowboy Bebop), #906495 (Blade Runner) y #f3e600 (Cyberpunk 2077)</p>
+
 <h3>Tipografías</h3>
 <p>Son dos tipografías unicamente: KogniGear (títulos) y SpaceJunkXL (texto), ambas sacadas de 1001 fonts.</p>
+
 <h3>Imágenes</h3>
 <h4>Página inicial</h4>
-<p></p>
+<p>El favicon lo he sacado de Freepik: https://www.freepik.com/icon/cyberpunk_4769970</p>
+<p>La foto de la sección de introducción es de Pinterest: https://www.pinterest.es/pin/180495897552614245/?amp_client_id=CLIENT_ID%28_%29&mweb_unauth_id=&simplified=true</p>
+<p>La foto de la sección de origenes es de Pinterest: https://ar.pinterest.com/pin/738731145149924343/</p>
+<p>La foto de la sección características es de la página oficial de Cyberpunk 2077: https://www.cyberpunk.net/es/en/cyberpunk-2077</p>
+<h4>Origenes</h4>
+<p>La foto de la sección de origenes es de Mubi, una página de películas: https://mubi.com/es/es/films/akira</p>
+<p>La foto de la sección del retrofuturismo es de Pinterest: https://www.pinterest.es/pin/413627547035562692/</p>
+<h4>Características</h4>
+<p>La foto de la sección de Macrocorporaciónes es de Reddit: https://www.reddit.com/r/CitiesSkylines/comments/kussyq/arasaka_tower/</p>
+<p>La foto de la sección de origenes es de UHDpaper: https://www.uhdpaper.com/2020/09/8669-cyberpunk-2077-spine-exoskeleton-4k.html</p>
+<h4>Neuromancer</h4>
+<p>La foto de la sección de William Gibson es de La Vanguardia: https://www.lavanguardia.com/peliculas-series/personas/william-gibson-150783</p>
+<p>El resto de fotos de los libros son de la página oficial de William Gibson: https://williamgibsonbooks.com</p>
+<h4>Cyberpunk 2077</h4>
+<p>La foto de la sección de la linea temporal es de la página del fandom de Cyberpunk 2077: https://cyberpunk.fandom.com/wiki/Timeline</p>
+<p>El resto de fotos de las cards son de: -Juegos de Mesa:https://williamgibsonbooks.com</p>
+<p>                                       -Videojuegos   :https://es.wallpapers.com/fondos-de-pantalla/fotode-retrato-en-cyberpunk-2077-para-android-utmix59jtm9wug8t.html</p>
+<p>                                       -Libros        :https://www.jokercomics.es/libro/cyberpunk-2077-wheres-johny_117162</p>
+<p>                                       -Anime         :https://www.reddit.com/r/Dominican/comments/xegsrv/primer_personaje_de_anime_dominicano/</p>
+
+
+
+
+
 <h3>Audios</h3>
 <p>Bip de los botones: https://pixabay.com/es/sound-effects/search/electric%20bip/</p>
 <p>Tema pricipal de Cyberpunk 2077: https://youtu.be/mhehxYhXG5Q?si=1JMI_lVRoFnORQrl</p>
