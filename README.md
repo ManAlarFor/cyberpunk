@@ -62,6 +62,7 @@
 <p>Son dos tipografías unicamente: KogniGear (títulos) y SpaceJunkXL (texto), ambas sacadas de 1001 fonts.</p>
 
 <h3>Imágenes</h3>
+<p>Todos los background patterns son de la página haikei: https://app.haikei.app</p>
 <h4>Página inicial</h4>
 <p>El favicon lo he sacado de Freepik: https://www.freepik.com/icon/cyberpunk_4769970</p>
 <p>La foto de la sección de introducción es de Pinterest: https://www.pinterest.es/pin/180495897552614245/?amp_client_id=CLIENT_ID%28_%29&mweb_unauth_id=&simplified=true</p>
@@ -97,3 +98,14 @@
 <p>Sonido de los botones: https://pixabay.com/es/sound-effects/search/electric%20bip/</p>
 <p>Tema pricipal de Cyberpunk 2077: https://youtu.be/mhehxYhXG5Q?si=1JMI_lVRoFnORQrl</p>
 <p>Tema pricipal de Cyberpunk Edgerunners: https://youtu.be/OifiVCnFKzM?si=I6tPae3yRTHqK4cl</p>
+
+<h2 id="snippets">Code snippets</h2>
+<p>He utilizado los siguientes:</p>
+<ul>
+  <li>Barra de navegación: tomada de w3Schools: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp</li>
+  <li>Accordion: tomado de FreeFrontend: https://freefrontend.com/css-accordions/</li>
+  <li>Modal: tomado de w3Schools: https://www.w3schools.com/howto/howto_css_modals.asp</li>
+  <li>Cards: tomada de w3Schools: https://www.w3schools.com/howto/howto_css_cards.asp</li>
+  <li>Galeria: tomada de w3Schools: https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp</li>
+  <li>Efecto de Galeria: tomada de CodePen: https://codepen.io/nxworld/pen/ZYNOBZ</li>
+</ul>
