@@ -80,7 +80,7 @@
 <h4>Cyberpunk 2077</h4>
 <p>La foto de la sección de la linea temporal es de la página del fandom de Cyberpunk 2077: https://cyberpunk.fandom.com/wiki/Timeline</p>
 <p>El resto de fotos de las cards son de:</p>
-<p>-Juegos de Mesa:https://williamgibsonbooks.com</p>
+<p>-Juegos de Mesa: https://www.amazon.com/-/es/Mike-Pondsmith/dp/B000MJDQZK</p>
 <p>-Videojuegos: https://es.wallpapers.com/fondos-de-pantalla/fotode-retrato-en-cyberpunk-2077-para-android-utmix59jtm9wug8t.html</p>
 <p>-Libros: https://www.jokercomics.es/libro/cyberpunk-2077-wheres-johny_117162</p>
 <p>-Anime: https://www.reddit.com/r/Dominican/comments/xegsrv/primer_personaje_de_anime_dominicano/</p>
